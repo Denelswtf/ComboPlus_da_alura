@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-terciaria: #167BF7;
+    --cor-quaternaria: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body {
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao {
+    display: block;
+    text-decoration: none;
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+    color: var(--cor-principal);
+    padding: 1em;
+    margin-bottom: 1em;
+} 
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--cor-principal);
+}
+
+.container__aviso {
+    color: var(--cor-secundaria);
+    font-size: 12px;
+
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__imagem {
+    width: 80%;
+    align-items: center;
+}
+
+.descricao__titulo {
+    color: var(--cor-principal);
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cor-secundaria);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--cor-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--cor-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--cor-principal);
+    margin-left: 1em;
+    transition: 300ms;
+}
+
+.lista__link a:hover {
+    color: var(--cor-terciaria);
+}
+
+.lista__link a:active {
+    font-size: 15px;
+    margin-left: 1.8em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cor-secundaria);
+    font-size: 14px;
+}
+
+
+
+    
+    
